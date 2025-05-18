@@ -1,0 +1,59 @@
+# ========================
+# Java & Spring Boot
+# ========================
+/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Ignore application config
+src/main/resources/application.yml
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ========================
+# Maven
+# ========================
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# Operating System
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Spring Tool Suite
+# ========================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# ========================
+# NetBeans
+# ========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
